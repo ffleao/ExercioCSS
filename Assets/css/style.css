@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+}
+
+.cabecalho {
+    height: 200px;
+    background-color: white;
+}
+
+.avatar {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 0px solid black;
+    background-image: url("../img/CurriculoLeao.PNG");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 237px;
+    float: inline-start;
+}
+
+.titulo {
+    text-align: center;
+    align-content: center;
+    height: 200px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.perfil {
+    height: 130px;
+    background-color: white;
+}
+
+.empresa {
+    height: 35px;
+    width: 95px;
+    background-color: white
+}
+
+.funcao {
+    height: 90px;
+    width: 700px;
+    margin-left: 190px;
+    margin-top: -54px;
+    background-color: white;
+}
+
+.descricao {
+    height: 60px;
+    width: 700px;
+    margin-left: 190px;
+    margin-top: -54px;
+    background-color: white;
+}
+
+.lingprog {
+    height:35px;
+    width: 95px;
+    margin-top: -30px;
+    background-color: white;
+    font-size: large;
+}
+
+@media (max-width: 600px) {
+
+	.msg-desktop {
+		display: none;
+	}
+
+	.msg-mobile {
+		display: block;
+	}
+
+	header h1 {
+		font-size: 17px;
+	}
+
+	li {
+		display: block;
+	}
+
+	nav {
+		display: flex;
+		justify-content: start;
+
+	.flex {
+	display: flex;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+	}
